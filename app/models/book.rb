@@ -1,3 +1,3 @@
 class Book < ApplicationRecord
-  bolongs_to :user
+  belongs_to :user
 end
