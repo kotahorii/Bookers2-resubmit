@@ -13,6 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+ #successfully {
+   color: green;
+   margin-bottom: 1rem;
+ }
+ #notice {
+  color:green;
+  margin-bottom: 16px;
+ }
+
 @import "bootstrap";
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
